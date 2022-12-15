@@ -4,13 +4,18 @@ html{
 }
 
 h1{
-	background: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-image: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 	height: 500px;
 	max-width: auto;
 	margin: 0px;
 	text-align: center;
 	padding-top: 200px;
+	color: white;
+	
+
 }
+
+
 .container-fluid{
 	background-color: #D6EAF8;
 }

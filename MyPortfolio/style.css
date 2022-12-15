@@ -1,8 +1,21 @@
 //STYLING GOES HERE
-
-nav{
-	background-color: red;
+html{
+	height: 100%;
 }
+
+
+.container-fluid{
+	background-color: #85C1E9;
+}
+
+
+
+body{
+	background: linear-gradient( 135deg, #F97794 10%, #623AA2 100% );
+	background-size: cover;
+	}		
+
+
 
 
 

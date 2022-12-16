@@ -3,12 +3,14 @@ html{
 	height: 100%;
 }
 
+
+
 h1{
-	background-image: url(citysky.jpg);
-	background-repeat: no-repeat;
+	position: relative;
+	z-index: 10;
+	overflow: auto;
 	height: 700px;
 	max-width: auto;
-	overflow: hidden;
 	margin: 0px;
 	text-align: center;
 	padding-top: 270px;
@@ -16,8 +18,23 @@ h1{
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-family: 'Noto Serif Georgian', serif;
     font-size: 65px;
-
 }
+
+.mainImage{
+	
+	filter: brightness(0.50);
+	background-image: url(citysky.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:contain; 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	overflow: hidden;
+}
+
 
 
 .container-fluid{
@@ -31,15 +48,7 @@ h1{
 
 
 
-.mainImage::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0,0,0,0.12);
-}
+
 
 
 

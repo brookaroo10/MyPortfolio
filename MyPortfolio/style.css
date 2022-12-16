@@ -30,10 +30,17 @@ h1{
 }
 
 
-/*body{
-	background: linear-gradient( 135deg, #F97794 10%, #623AA2 100% );
-	background-size: cover;
-	}*/
+
+.mainImage::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.12);
+}
+
 
 
 

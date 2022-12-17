@@ -47,7 +47,7 @@ html{
 }*/
 /*why does the above styling not work?
 /*because the image is not going into the parent div
-*/
+*//*also, the background-size contain was not stretching out the image to 100%*/
 
 
 

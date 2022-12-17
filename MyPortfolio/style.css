@@ -3,7 +3,19 @@ html{
 	height: 100%;
 }
 
-h1{
+
+.combined{
+	background-image: url(citysky.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.combined h1{
 	position: relative;
 	z-index: 10;
 	overflow: auto;
@@ -18,19 +30,24 @@ h1{
     font-size: 65px;
 }
 
-.mainImage{
+/*
+.combined img{ 
 	
+	/*background-repeat: none;
 	filter: brightness(0.85);
 	background-image: url(citysky.jpg);
 	background-position: center center;
 	background-size:contain; 
 	position: absolute;
-	width: 100%;
+	width: 100%; 
 	height: 73%;
 	overflow: hidden;
 	top: 0%;
 	left: 0%;
-}
+}*/
+/*why does the above styling not work?
+/*because the image is not going into the parent div
+*/
 
 
 

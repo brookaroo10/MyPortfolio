@@ -17,6 +17,7 @@ html{
 	filter: brightness(0.85); 
 	block-size: auto;
 	object-fit: contain;
+
 }
 
 .combined h1{
@@ -33,9 +34,31 @@ html{
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-family: 'Noto Serif Georgian', serif;
     font-size: 65px;
+
 }
 
-/*
+
+.container-fluid{
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.4); /**/
+	background-color: #D6EAF8;
+	font-family: 'Noto Serif Georgian', serif;
+	
+
+}
+
+.navbar{
+	display: flex;
+	padding-top: 20px;
+}
+
+.navbar a{
+	color: #2C3E50 !important; /*!important overrides bootstrap styling*/
+
+}
+
+
+
+/*LESSONS LEARNED:
 .combined img{ 
 	
 	/*background-repeat: none;
@@ -53,30 +76,6 @@ html{
 /*why does the above styling not work?
 /*because the image is not going into the parent div
 *//*also, the background-size contain was not stretching out the image to 100%*/
-
-
-.container-fluid{
-	background-color: #D6EAF8;
-	font-family: 'Noto Serif Georgian', serif;
-	
-
-}
-
-.navbar{
-	display: flex;
-	padding-top: 20px;
-}
-
-.navbar a{
-	color: #ff4500 !important;
-}
-
-
-
-
-
-/*https://codingyaar.com/responsive-bootstrap-navbar-center-align/*/
-
 
 
 

@@ -56,8 +56,26 @@ html{
 
 }
 
+.all_projects{
+	display: flex;
+	justify-content: center;
+}
 
+.Project1a{
+	width: 100px; 
+	float:left; 
+	height:100px; 
+	background: #E5E8E8 ; 
+	margin:10px;
+}
 
+.Project1b{
+	width: 100px; 
+	float:left; 
+	height:100px; 
+	background: #E5E8E8 ; 
+	margin:10px
+}
 /*LESSONS LEARNED:
 .combined img{ 
 	

@@ -8,13 +8,15 @@ html{
 
 	background-image: url(citysky.jpg);
 	height: 100%;
-	width: 100%;
+	max-width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	overflow: hidden;
 	position: relative;
-	filter: brightness(0.85);
+	filter: brightness(0.85); 
+	block-size: auto;
+	object-fit: contain;
 }
 
 .combined h1{

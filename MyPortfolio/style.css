@@ -58,7 +58,7 @@ html{
 .container-fluid{
 	background-color: #D6EAF8;
 	font-family: 'Noto Serif Georgian', serif;
-	color: #ff4500;
+	
 
 }
 
@@ -66,6 +66,11 @@ html{
 	display: flex;
 	padding-top: 20px;
 }
+
+.navbar a{
+	color: #ff4500 !important;
+}
+
 
 
 

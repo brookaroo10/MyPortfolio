@@ -55,7 +55,6 @@ html{
 *//*also, the background-size contain was not stretching out the image to 100%*/
 
 
-
 .container-fluid{
 	background-color: #D6EAF8;
 	font-family: 'Noto Serif Georgian', serif;
@@ -67,6 +66,8 @@ html{
 	display: flex;
 	padding-top: 15px;
 }
+
+
 
 /*https://codingyaar.com/responsive-bootstrap-navbar-center-align/*/
 

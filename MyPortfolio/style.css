@@ -5,6 +5,7 @@ html{
 
 
 .combined{
+
 	background-image: url(citysky.jpg);
 	height: 100%;
 	width: 100%;
@@ -16,10 +17,11 @@ html{
 }
 
 .combined h1{
+
 	position: relative;
 	z-index: 10;
 	overflow: auto;
-	height: 700px;
+	height: 600px;
 	max-width: auto;
 	margin: 0px;
 	text-align: center;

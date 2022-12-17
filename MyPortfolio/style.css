@@ -56,25 +56,32 @@ html{
 
 }
 
+
 .all_projects{
 	display: flex;
 	justify-content: center;
 }
 
+.Project1{
+	font-family: 'Noto Serif Georgian', serif;
+	margin: 200px;
+	font-size: 27px;
+
+}
 .Project1a{
-	width: 100px; 
-	float:left; 
-	height:100px; 
+	width: auto; 
+	float:left;
+	height:auto; 
 	background: #E5E8E8 ; 
 	margin:10px;
 }
 
 .Project1b{
-	width: 100px; 
+	width: auto; 
 	float:left; 
-	height:100px; 
+	height:auto; 
 	background: #E5E8E8 ; 
-	margin:10px
+	margin:10px;
 }
 /*LESSONS LEARNED:
 .combined img{ 

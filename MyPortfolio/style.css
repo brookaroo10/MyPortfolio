@@ -89,7 +89,7 @@ html{
 	width: 550px;
 	max-width: 100%;
 	height: auto;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 ul{
 	padding-left: 0px;
@@ -116,11 +116,12 @@ li{
 
 /*RIGHT SIDE*/
 .Project1b{
+	margin-top: 15px;
 	max-width: 500px; 
 	float:left; 
 	height:auto; 
 	background: #E5E8E8 ; 
-	margin:10px;
+	margin:15px;
 	padding: 50px;
 }
 

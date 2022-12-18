@@ -91,9 +91,26 @@ html{
 	height: auto;
 	margin-top: 30px;
 }
+ul{
+	padding-left: 0px;
+	list-style: none;
 
+}
 li{
 	font-size: 19px;
+}
+
+.project_1_li{
+	font-size: 18px;
+}
+
+.project_1_li::before {
+  content: "• ";
+  padding-right: 5px;
+  color: blue;
+  font-weight: bold;
+  border-color: black;
+  font-size: 30px;
 }
 
 /*RIGHT SIDE*/

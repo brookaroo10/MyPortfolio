@@ -33,7 +33,7 @@ html{
 	color: white;
 	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-family: 'Noto Serif Georgian', serif;
-  font-size: 65px;
+  font-size: 70px;
 
 }
 
@@ -73,7 +73,7 @@ html{
 	display: flex;
 	font-family: 'Noto Serif Georgian', serif;
 	margin: 95px;
-	font-size: 24px;
+	font-size: 27px;
 	display: flex;
 	gap: 15px;
 	margin-bottom: 0px;

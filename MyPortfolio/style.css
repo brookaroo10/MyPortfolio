@@ -107,10 +107,11 @@ li{
 .project_1_li::before {
   content: "• ";
   padding-right: 5px;
-  color: blue;
+  color: #2E86C1;
   font-weight: bold;
-  border-color: black;
   font-size: 30px;
+
+ 
 }
 
 /*RIGHT SIDE*/

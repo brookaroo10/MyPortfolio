@@ -64,7 +64,7 @@ html{
 	display: grid;
 	align-items:center;
 	justify-content: center;
-	margin: 15px;
+	margin: 10px;
 
 
 }
@@ -72,7 +72,7 @@ html{
 .Project1{
 	display: flex;
 	font-family: 'Noto Serif Georgian', serif;
-	margin: 160px;
+	margin: 95px;
 	font-size: 24px;
 	display: flex;
 	gap: 15px;
@@ -86,7 +86,7 @@ html{
 	float:left;
 	height:auto; 
 	background: #E5E8E8 ; 
-	margin:15px;
+	margin:10px;
 	padding: 50px;
 	margin-bottom: 0px;
 }
@@ -122,12 +122,12 @@ li{
 
 /*RIGHT SIDE*/
 .Project1b{
-	margin-top: 15px;
+	margin-top: 10px;
 	max-width: 500px; 
 	float:left; 
 	height:auto; 
 	background: #E5E8E8 ; 
-	margin:15px;
+	margin:10px;
 	padding: 50px;
 	margin-bottom: 0px;
 }

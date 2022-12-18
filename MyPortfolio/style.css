@@ -60,6 +60,7 @@ html{
 
 /*START Project Items*/
 .all_projects{
+
 	display: flex;
 	justify-content: center;
 
@@ -81,7 +82,7 @@ html{
 	float:left;
 	height:auto; 
 	background: #E5E8E8 ; 
-	margin:10px;
+	margin:15px;
 	padding: 50px;
 }
 

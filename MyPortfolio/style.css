@@ -14,7 +14,7 @@ html{
 	background-position: center;
 	overflow: hidden;
 	position: relative;
-	filter: brightness(0.85); 
+	filter: brightness(0.87); 
 	block-size: auto;
 	object-fit: contain;
 
@@ -60,6 +60,7 @@ html{
 .all_projects{
 	display: flex;
 	justify-content: center;
+
 }
 
 .Project1{
@@ -69,11 +70,17 @@ html{
 	font-size: 24px;
 	display: flex;
 	gap: 15px;
-
-
-
-
 }
+
+.penguin_image{
+	width: 550px;
+	max-width: 100%;
+	height: auto;
+	 
+}
+
+
+
 .Project1a{
 	max-width: 500px;
 	float:left;
@@ -96,6 +103,10 @@ p{
 	
 	font-size: 20px;
 	
+}
+
+hr{
+	color: #E5E8E8;
 }
 /*LESSONS LEARNED:
 .combined img{ 

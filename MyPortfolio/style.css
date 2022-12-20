@@ -98,6 +98,7 @@ html{
 
 .live_preview:hover{
 	text-shadow: 0 0.010em #2471A3;
+	cursor: pointer;
 }
 
 .image{

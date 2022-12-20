@@ -91,6 +91,11 @@ html{
 	margin-bottom: 0px;
 }
 
+.live_preview{
+	color: #2C3E50;
+	display: inline-block;
+}
+
 .image{
 	width: 550px;
 	max-width: 100%;
@@ -143,11 +148,7 @@ hr{
 }
 
 
-
-
 /*END Project Items*/
-
-
 
 
 /*LESSONS LEARNED:

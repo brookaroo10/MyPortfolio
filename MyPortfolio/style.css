@@ -88,12 +88,16 @@ html{
 	background: #E5E8E8 ; 
 	margin:10px;
 	padding: 50px;
-	margin-bottom: 0px;
+	margin-bottom: 0px; 
 }
 
 .live_preview{
 	color: #2C3E50;
 	display: inline-block;
+}
+
+.live_preview:hover{
+	text-shadow: 0 0.010em #2471A3;
 }
 
 .image{

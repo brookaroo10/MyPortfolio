@@ -1,6 +1,7 @@
 //STYLING GOES HERE
 html{
 	height: 100%;
+	scroll-behavior: smooth;
 }
 
 /*START top image and header*/

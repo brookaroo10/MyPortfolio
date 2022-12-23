@@ -153,8 +153,8 @@ hr{
 	color: black;
 }
 
-.contact:hover{
-	cursor: pointer;
+.contact{
+	cursor: pointer !important;
 }
 
 /*END Project Items*/

@@ -1,12 +1,7 @@
-let BoldItems = document.querySelectorAll('.live_preview');
+
+//add javascript here to link pages to websites and do other things
 
 
-function BoldText(){
-	BoldItems.style.fontweight = 'bold';
-}
 
-function UnBoldText(){
-	BoldItems.style.fontweight = 'normal';
-}
 
 
